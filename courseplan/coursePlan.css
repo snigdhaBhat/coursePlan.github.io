@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #D7E2E8;
+}
+
+.everything{
+  width: 80vw;
+  background-color: #FCC9C5;
+  box-shadow: 2px 2px 7px #000;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 2em;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New", monospace;
+}
+
+h2{
+  text-align: center;
+  font-family: monospace;
+}
+
+.subject{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.subject img{
+  width: 20vw;
+  height: 30vh;
+  border: 1px solid black;
+  border-radius: 0.6em;
+}
+
+.subject img:hover{
+  box-shadow: 5px 5px 8px black;
+  border: 1px solid blue;
+  width: 22vw;
+  height: 32vh;
+  transition: 0.2s;
+}
+
+.courses{
+  display: block;
+  background-color: #B9CBD9;
+  width: 30vw;
+  height: 55vh;
+  padding: 0.5em;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+}
+
+button{
+ background-color: #72aee6;
+ border: 1px solid black;
+ border-radius: 1em;
+}
